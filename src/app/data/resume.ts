@@ -101,7 +101,7 @@ export const Projects: { projects: ProjectType[] } = {
       title: "Blackwater",
       href: "https://clarknet.site",
       description:
-        "An intelligence website that handles advanced user authentication, and strict role based access access to complex and user friendly tools.",
+        "An intelligence website that handles advanced user authentication, and strict role based access access to complex and user friendly tools. Built on a safe zero-loss structure which gathers data from hundreds of sources with 0 data loss with extremely fast compute algorithms.",
       dates: "2024 - Present",
       active: true,
       technologies: mapSkill([
@@ -126,7 +126,7 @@ export const Projects: { projects: ProjectType[] } = {
       title: "Clarke",
       href: "https://clarkcounty.site",
       description:
-        "Online betting website created for a ROBLOX community, with a focus on user experience and ease of use. Reached 1000 users in the first month with 5 million HTTP requests, no security vulnerabilities with 100% uptime.",
+        "Online betting website created for a ROBLOX community, with a focus on user experience and ease of use. Reached 1000 users in the first month with a peak of 200,000 HTTP requests a minute, no security vulnerabilities with 100% uptime.",
       dates: "October 2024 - December 2024",
       active: false,
       technologies: mapSkill([
@@ -144,6 +144,22 @@ export const Projects: { projects: ProjectType[] } = {
 
 export const MiniProjects: { miniProjects: MiniProjectType[] } = {
   miniProjects: [
+    {
+      title: "Portfolio Website",
+      dates: "2024",
+      href: "https://github.com/ViktorRingnes/portifolio",
+      location: "Oslo, Norway",
+      description: "My personal portfolio website.",
+      image: "/MiniProjects/Github.png",
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/ViktorRingnes/portifolio",
+          icon: "github",
+        },
+      ],
+      technologies: mapSkill(["React", "Next.js", "Typescript", "TailwindCSS"]),
+    },
     {
       title: "ShaNext",
       dates: "2024",
